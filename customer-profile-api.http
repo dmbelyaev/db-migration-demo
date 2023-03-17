@@ -1,0 +1,15 @@
+###
+POST localhost:8080/api/customer-profiles
+Content-Type: application/json
+
+{"email": "test_user@test.com","address": {"street":"has no name", "city": "city", "zipCode": "00000"}}
+
+
+###
+GET localhost:8080/api/customer-profiles/
+Accept: application/json
+
+
+###
+GET localhost:8080/actuator/health
+Accept: application/json
