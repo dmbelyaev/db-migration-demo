@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: db-migration-demo-app-pod
-          image: dbelyaev626/db-migration-demo-app:1.1
+          image: dbelyaev626/db-migration-demo-app:1.1.1
           ports:
             - containerPort: 8080
           startupProbe:

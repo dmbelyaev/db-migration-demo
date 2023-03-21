@@ -1,9 +1,5 @@
 package com.example.dbmigration.theapp.api;
 
-import java.net.URI;
-import java.util.List;
-import java.util.stream.Collectors;
-
 import com.example.dbmigration.theapp.domain.CustomerProfileChangeRequest;
 import com.example.dbmigration.theapp.domain.CustomerProfileCreateRequest;
 import com.example.dbmigration.theapp.domain.CustomerProfileResponse;
@@ -19,6 +15,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.net.URI;
+import java.util.List;
+import java.util.stream.Collectors;
 
 @CrossOrigin
 @RestController
