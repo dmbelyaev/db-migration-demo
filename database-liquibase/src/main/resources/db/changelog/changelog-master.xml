@@ -1,0 +1,8 @@
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd">
+
+    <include file="V1.0__initial.sql" relativeToChangelogFile="true"/>
+    <include file="V1.1__support_multiple_addresses_per_profile.sql" relativeToChangelogFile="true"/>
+</databaseChangeLog>

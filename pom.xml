@@ -24,6 +24,7 @@
 	<modules>
 		<module>app</module>
 		<module>database</module>
+		<module>database-liquibase</module>
 	</modules>
 
 </project>
